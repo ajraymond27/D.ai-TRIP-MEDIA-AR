@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p>HELLO UNIVERSE</p>
+        <h1>D.ai TRIP MEDIA</h1>
       </main>
 
       <footer className={styles.footer}>
