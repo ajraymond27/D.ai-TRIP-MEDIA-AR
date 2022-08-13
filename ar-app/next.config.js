@@ -4,4 +4,11 @@ const nextConfig = {
   swcMinify: true,
 }
 
+rewrites: async () => [
+  {
+    source: "/public/ar_test.html",
+    destination: "/pages/api/ar_test.js",
+  },
+],
+
 module.exports = nextConfig
