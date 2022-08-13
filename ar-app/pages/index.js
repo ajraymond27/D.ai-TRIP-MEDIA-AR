@@ -12,7 +12,7 @@ export default function Home() {
       <main className={styles.main}>
         <a href='https://www.daitripmedia.com/'>
           <h1>D.ai TRIP MEDIA</h1>
-          <p>scan garment for AR experience</p>
+          <p>scan garment for AR experiences</p>
         </a>
       </main>
 
