@@ -5,13 +5,7 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
     <!-- create your content here.-->
-    <!-- define your gltf asset -->
-    <a-assets>
-      <a-asset-item id="donut" src="https://daitripmedia-ar-converted-models-f0cd6280.s3.amazonaws.com/glb/good_donut.glb"></a-asset-item>
-    </a-assets>
-    <!-- use your gltf model -->
-    <a-entity gltf-model="##donut"></a-entity>
-    <!-- define a camera which will move according to the marker position -->
+    <a-text value="Hello, World!"></a-text>
     <a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
 </body>
