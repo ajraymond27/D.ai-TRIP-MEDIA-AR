@@ -11,7 +11,7 @@
     <a-scene embedded arjs>
       <!-- define your gltf asset -->
       <a-assets>
-        <a-asset-item id="alien" src="https://daitripmedia-ar-converted-models-f0cd6280.s3.amazonaws.com/glb/alien3.glb"></a-asset-item>
+        <a-asset-item id="alien" src="alien3.glb"></a-asset-item>
       </a-assets>
       <!-- use your gltf model -->
       <a-entity gltf-model="#alien" scale="1 1 1" position="-0.5 0 -5"></a-entity>
@@ -21,8 +21,7 @@
       <a-text value="Name: AJ Raymond" position="0 2.25 -5" font="kelsonsans"></a-text>
       <a-text value="Function: Agile Delivery" position="0 2 -5" font="kelsonsans"></a-text>
       <a-text value="Program: Customer Insights & Loyalty" position="0 1.75 -5" font="kelsonsans"></a-text>
-
-
+      <a-sound src="src: url(music.mp3)" autoplay="true" position="0 2 5"></a-sound>
     </a-scene>
   </body>
 </html>
